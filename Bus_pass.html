@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="./thankyou.jpg"autocomplete="off">
+        <fieldset> 
+            <center><img src="./srclogo.html.png"></center>
+            <Center><h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1></Center>
+            <center><H2>GENERAL BUS PASS APPLICATION</H2></center></fieldset>
+        <fieldset><legend> Application Details</legend><br>
+        Name*
+
+        <input type="text" name="Name">
+        (Maximum characters:20)
+        Father's/Guardian's Name*
+        <input type="text" name="Father's name"><br>
+        <br>
+        Date of Birth*
+        (dd/mm/yyyy)
+        <input type="date" name="Date of birth">
+        Gender*   
+        <input type="radio"name="gender" value="Female" >Female
+        <input type="radio"name="gender" value="Male">Male<br>
+        <br>
+        Age As on
+        <input type="text " size=1 name="age">Year(s)
+        <input type="text " size=1 name="age">Months(s)
+        <input type="text " size=1 name="age">Day(s)
+        Aadhaar No: <input type="int" pattern="[0-9]+" maxlength="12"minlength="12"><br>
+        <br>
+        WhatsApp No* : <input type="int"pattern="\+91[6789][0-9]{9}">
+        E-mail Id : <input type="Email"><br>
+        <br>
+        Photo* : <input type="File">
+        </fieldset>
+        <fieldset><legend> Residential Address Details</legend><br>
+            Application Adress *  
+            <textarea maxlength="20"></textarea>
+            (maximum characters:20)
+            District* : <select required name="District">
+                <option value="Hydrebabd">Hydrebad</option>
+            </select><br>
+            <br>
+            Mandal*  <select required name="Mandal"><option value="Hydrebad">Hydrebad</option></select>
+            Village*  <select required name="Village"><option value="Hydrebad">Hydrebad</option></select><br>
+            <br>
+            Pincode*  <input type="text"pattern="[0-9]+{6}">
+            </fieldset>
+            <fieldset><legend>Pass Type Details</legend><br>
+                City*  <select required name="City"><option value="Hydrebad">Hydrebad</option></select><br>
+                    <br>
+                Pass Type* <select required name="Pass Type"  >
+                    <option value="---Select---">---select---</option>
+
+                    <option value="Greater pass">Greaterpass</option>
+                    <option value="General Ordinary Route pass Mtly">General Ordinary Route pass Mtly</option>
+                    <option value="General metro Express Route pass Mtly">General metro Express Route pass Mtly</option>
+                    <option value="Ordinary pass">Ordinary pass</option>
+                    <option value="Metro pass">Metro pass</option></select>
+                    </fieldset>
+                    <fieldset><legend> Mode of Payment & Pass Collection</legend><br>
+                       Payment Mode <select required name="Payment mode">
+                        <option value="Select Payment Mode ">Select Payment Method</option>
+                        <option value="Payment at Counter">Payment at Counter</option></select><br>
+                        <br>
+                        Pass Delivery Mode* <select required name="Pass Delivery Mode">
+                        <option value="Select Pass Delivery Mode">Select Pass Delivery Mode</option>
+                        <option value="At Counter">At Counter</option><br></select><br>
+                        <br>
+                        center at which you want to collect pass* 
+                        <select required name="center at which you want to collect pass">
+                        <option value="RTC ABIDS--HYD[17/12/2024]">RTC ABIDS--HYD[17/12/2024]</option>
+                        <option value="RTC AFZALGUNJ--HYD[17/12/2024]">RTC AFZALGUNJ--HYD[17/12/2024]</option>
+                        <option value="RTc ARAMGHAR--HYD [17/12/2024]">RTc ARAMGHAR--HYD [17/12/2024]</option>
+                        <option value="RTc BALANAGAR--HYD [17/12/2024]">RTc BALANAGAR--HYD [17/12/2024]</option>
+                        <option value="RTc BORABANDA--HYD [17/12/2024]">RTc BORABANDA--HYD [17/12/2024]</option>
+                        <option value="RTc CBS--HYD [17/12/2024]">RTc CBS--HYD [17/12/2024]</option>
+                        <option value="RTc CHARMINAR--HYD [17/12/2024]">RTc CHARMINAR--HYD [17/12/2024]</option></select>
+                        <center><img src="./code.html.png"><br>
+                          <input type="text"name="otp"required pattern=".{1,6}"><br>
+                          <br>
+                        <input type="submit" ></center>
+                       
+                    </form>
+    
+</body>
+</html>
